@@ -7,8 +7,7 @@ module MyVagrantPlugin
     name "my vagrant plugin"
 
     command "free-memroy" do
-      # require_relative "my_vagrant_plugin/command"
-      require_relative "command"
+      require_relative "my_vagrant_plugin/command"
       Command
     end
   end

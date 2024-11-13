@@ -5,7 +5,7 @@ source "https://rubygems.org"
 #  gem "vagrant", :git => "git://github.com/lavenliu/vagrant.git"
 # end
 group :development do
-  gem "vagrant", git: "https://github.com/hashicorp/vagrant.git"
+  gem "vagrant", git: "https://gitee.com/lavenliu/myvagrant.git"
 end
 
 group :plugins do
